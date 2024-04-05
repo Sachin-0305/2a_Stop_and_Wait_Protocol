@@ -33,6 +33,7 @@ s.connect(('localhost',8000))
 while True:
     print(s.recv(1024).decode())
     s.send("Acknowledgement Recived".encode())
+```
 ## OUTPUT
 ![Screenshot 2024-04-05 110759](https://github.com/Sachin-0305/2a_Stop_and_Wait_Protocol/assets/149985717/7278df3b-14bd-40cb-a102-0d24b3e90e73)
 
